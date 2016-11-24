@@ -1,0 +1,5 @@
+#JSGF V1.0;
+
+grammar menu;
+
+public <item> =(BHANDHO | KHUL | <NULL>)(JAA | <NULL>)(SIM | <NULL>)(SIM | <NULL>);
